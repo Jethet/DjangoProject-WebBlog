@@ -204,7 +204,17 @@ vervolgens: git push heroku master
 For error messages Heroku:
 heroku logs --tail
 
+djan2019app.herokuapp.com added to ALLOWED_HOSTS
 
+Generate secret key:
+(venv) Henriettes-MacBook-Air:WebBlog henriettehettinga$ python3
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import secrets
+>>> secrets.token_hex(24)
+bc35dfe1d37196e9361303962408586377a47f22bb33bd69
+(GEEN IDEE WAT IK HIERMEE MOET: environment variable)
 ================================================================================
 NO IDEA WHAT THIS IS: came with Homebrew (text copied from command line):
 
