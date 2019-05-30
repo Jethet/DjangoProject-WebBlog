@@ -1,8 +1,7 @@
-LET OP: in de video is de hoofdfolder 'desktop' en dat is bij mij 'WebBlog'.
-In de video heet het project 'django_project' en dat is bij mij 'webblog'.
-De folder WebBlog heeft een subfolder webblog met daarin ook een subfolder die
+LET OP: In de video heet het project 'django_project' en dat is bij mij WebBlog.
+Het project WebBlog heeft een folder webblog met daarin een subfolder die
 webblog heet. Om de server te starten (manage.py runserver) moet de folder
-WebBlog/webblog worden gebruikt en niet WebBlog/webblog/webblog.
+WebBlog/webblog worden gebruikt.
 
 INSTALLED PACKAGES ETC.:
 gunicorn
@@ -194,11 +193,12 @@ EMAIL_HOST_PASSWORD= 'password'
 EMAIL_USE_TLS= True
 EMAIL_PORT= 587
 
-Log in Heroku: heroku login (text appears: 'press any key to open up the browser
-to login or q to exit')
+IN YOUR PROJECT'S DIRECTORY log in Heroku: heroku login (text appears: 'press
+any key to open up the browser to login or q to exit')
 This brings you to a browser screen where you can login to Heroku.
-HEROKU: app name is djang2019app
-https://djang2019app.herokuapp.com/ can be pasted in browser OR use command:
+HEROKU: app name is djan2019app
+https://djan2019app.herokuapp.com/ can be pasted in browser OR use command:
+| https://git.heroku.com/djan2019app.git |
 heroku open (??) Should be in the project's directory
 
 
