@@ -1,3 +1,8 @@
+DE BLOG WERKT LOKAAL VIA localhost:8000.
+DE TUTORIAL DEPLOYING USING HEROKU HEB IK NIET AFGEMAAKT.
+EERST MOET IK VOLDOENDE WETEN OVER environment variables.
+DE HEROKU APPLICATION HEB IK AL WEL OPGEZET VOOR DEZE BLOG APP.
+
 LET OP: In de video heet het project 'django_project' en dat is bij mij WebBlog.
 Het project WebBlog heeft een folder webblog met daarin een subfolder die
 webblog heet. Om de server te starten (manage.py runserver) moet de folder
